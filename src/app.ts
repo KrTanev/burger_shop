@@ -1,4 +1,3 @@
-// import bodyParser from 'body-parser';
 import express, { Request, Response } from 'express';
 import {
   getAvailableOptions,
@@ -39,6 +38,11 @@ with JSON body:
 {
   "burger": "royal"
 }
-If successful will receive response with order confirmation.
+OR
+{
+  "burger": "royal",
+  "sauce": "garlic"
+}
 
+If successful will receive response with order confirmation.
 */

@@ -8,7 +8,11 @@ export const restaurantController = (props: Order) => {
 
   const restaurant = Restaurant.getInstance();
 
-  const response = restaurant.takeOrder({ burger, sauce });
+  let response = restaurant.takeOrder({ burger: burger, sauce: sauce });
+
+  if (sauce) {
+    response = response.addSauce({ sauce: sauce });
+  }
 
   return response.getDescription();
 };

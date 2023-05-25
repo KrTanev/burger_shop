@@ -94,6 +94,6 @@ export class SauceDecorator extends Burger {
   }
 
   public getDescription(): string {
-    return `${this.burger.getDescription()} with ${this.sauce} sauce`;
+    return `${this.burger.getDescription()} with ${this.sauce.sauce} sauce.`;
   }
 }
