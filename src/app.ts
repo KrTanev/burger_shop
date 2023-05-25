@@ -28,3 +28,17 @@ app
 app.listen(port, () => {
   return console.log(`Express is listening at http://localhost:${port}`);
 });
+
+/*
+//*Get
+To access get api send get request to http://localhost:3000/api/order
+
+//*Post
+To create new order set post request to http://localhost:3000/api/order
+with JSON body:
+{
+  "burger": "royal"
+}
+If successful will receive response with order confirmation.
+
+*/

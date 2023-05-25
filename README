@@ -1,0 +1,21 @@
+# Express TypeScript Project
+
+This is a sample Express project written in TypeScript.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+
+## Project Structure
+
+The project is structured as follows:
+
+- `src/`: This directory contains the source code for the project.
+- `src/app.ts`: This file sets up the Express application.
+- `src/controller/`: This directory contains the handlers.
+- `src/restaurant/`: This directory contains logic and design patters for restaurant.
+- `src/utils/`: This directory contains utility functions and helper code .
