@@ -3,7 +3,7 @@ import { BurgerType, SauceType } from '../utils/types';
 //* Factory design pattern
 export class Kitchen {
   public static createBurger(type: BurgerType): Burger {
-    switch (type) {
+    switch (type.toLowerCase()) {
       case 'cheeseburger':
         return new CheeseBurger();
       case 'baconburger':
